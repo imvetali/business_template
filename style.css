@@ -1,0 +1,99 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+
+}
+header {
+    height: 560px;
+    background: url(img/bg-header.jpg) center center no-repeat;
+}
+.wrapper {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.top-holder {
+    padding: 40px 165px
+}
+menu {
+    margin: 0;
+}
+menu li {
+    list-style: none;
+    float: left;
+}
+menu li a {
+    color: #fff;
+    line-height: 28px;
+    display: block;
+    padding: 0 10px ;
+}
+
+.carousel {
+    margin-top: 50px;
+}
+.carousel, .carousel .item {
+    height: 300px;
+}
+
+.section-header h2 {
+    color: #709dca;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+.section-header {
+    text-align: center;
+    padding: 90px 0;
+}
+.offer .item {
+    padding-left: 55px;
+    background: top left no-repeat;
+
+}
+
+.offer .item.icon-setting {
+    background-image: url(img/setting.png);
+}
+.offer .item.icon-cart {
+    background-image: url(img/cart.png);
+}
+.offer .item.icon-task {
+    background-image: url(img/task.png);
+}
+.offer .item.icon-monitor {
+    background-image: url(img/monitor.png);
+}
+.offer .item.icon-speed {
+    background-image: url(img/speed.png);
+}
+.offer .item.icon-globus {
+    background-image: url(img/globus.png);
+}
+
+.offer .item-holder {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.who > div {
+    height: 623px;
+    float: left;
+    width: 50%;
+}
+
+.who .orange {
+    background-color: #ffc155;
+    color: #fff;
+    box-sizing: border-box;
+    padding-top: 90px;
+    padding-left: 80px;
+}
+
+.who .image {
+    background: url(img/bg-who.jpg) no-repeat;
+}
+.who .orange h2 {
+    text-transform: uppercase;
+    font-size: 26px;
+}
